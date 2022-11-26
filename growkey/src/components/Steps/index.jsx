@@ -6,6 +6,7 @@ import "./Steps.css";
 import Icono1 from "./assets/icono1.svg"
 //Componente Funcional 
 //type = button-long-text
+//prueba
 
 export const Steps = () => {
     return(
