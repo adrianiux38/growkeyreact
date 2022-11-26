@@ -2,6 +2,9 @@ import './App.css';
 import { Navbar } from './components/Navbar';
 import { Header } from './components/Header';
 import { Features } from './components/Features';
+import { Hightlight } from './components/Highlight';
+import { Store } from './components/Store';
+import { Steps } from './components/Steps';
 
 function App() {
   return (
@@ -9,6 +12,9 @@ function App() {
       <Navbar/>
       <Header/>
       <Features/>
+      <Hightlight/>
+      <Store/>
+      <Steps />
     </main>
   );
 }

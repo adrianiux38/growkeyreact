@@ -1,0 +1,58 @@
+.highlightContainer{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    width: 1108px;
+    height: 517px;
+    align-content: center;
+    justify-content: center;
+}
+
+.rectangle{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.rectangle img{
+    width: 448px;
+    height: 517px;
+    align-self: center;
+    
+}
+
+.subrectangle{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.subrectangle h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 60px;
+    max-width: 50%;
+    /* or 150% */
+
+
+    color: #7151DA;
+}
+
+.subrectangle p {
+    margin-top: -2%;
+    max-width: 50%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 28px;
+
+    color: #694DC6;
+}

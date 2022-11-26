@@ -19,8 +19,8 @@ export const Header = () => {
                     <button className='boton' type='button' id='boton1'>Apply for a credit</button>
                     <button className='boton' type='button' id='boton2'>Lend</button>
                 </div>
-                <div className='platformPreview'></div>
             </div>
+            <div className='platformPreview'></div>
         </div>
     );
 }

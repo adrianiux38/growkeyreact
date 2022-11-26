@@ -1,0 +1,14 @@
+.scoreContainer{
+    width: 100%;  
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#tiendaecommerce {
+    display: flex;
+    width: 585px;
+    height: 585px;
+    align-items: center;
+    margin-right: 5%;
+}
