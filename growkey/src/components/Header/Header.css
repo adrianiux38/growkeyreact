@@ -1,0 +1,81 @@
+.headerBanner{
+    position: absolute;
+    width: 594px;
+    height: 448px;
+    left: 67px;
+    top: 129px;
+}
+
+#titleHeader{
+    position: absolute;
+    width: 532px;
+    height: 284px;
+    left: 98px;
+    top: 129px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+
+color: #694DC6;
+}
+.headerTitle span{
+    color: #154BD8;
+    text-decoration: line-through;
+    text-decoration-color: #154BD8;
+}
+.textHeader{
+    position: absolute;
+    width: 486px;
+    height: 77px;
+    left: 98px;
+    top: 394px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #694DC6;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 594px;
+    height: 66px;
+    left: 67px;
+    top: 511px;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    width: 289.38px;
+    height: 66px;
+    top: 511px;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #7151DA 0%, #694DC6 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.platformPreview {
+    position: absolute;
+width: 430px;
+height: 763.1px;
+left: 757px;
+top: 70px;
+
+background: url('./assets/uipreview.svg');
+}

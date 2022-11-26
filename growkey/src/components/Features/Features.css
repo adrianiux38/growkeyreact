@@ -1,0 +1,24 @@
+.features{
+    position: absolute;
+    width: 1133px;
+    height: 403px;
+    left: 66px;
+    top: 982px;
+}
+
+.featuresTitle{
+    position: absolute;
+    width: 730px;
+    height: 55px;
+    left: 280px;
+    top: 982px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #7151DA;
+}

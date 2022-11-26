@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'inter';
+    src: url('../../font/Inter-Medium.ttf');
+    font-family: 'Inter'
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+  }
+
+#navbar{
+    width: 276px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+    position: absolute;
+    left: 911px;
+    top: 37px;
+}
+
+.link{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'inter';
+    align-self: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3em;
+    font-family: 'Inter';
+    line-height: 30px;
+    color: #694DC6;
+    
+
+    margin: auto;
+
+}

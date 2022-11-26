@@ -1,0 +1,8 @@
+#home{
+  background-image: url("./image/fondodifuminado.svg");
+  width: 100vw;
+  height:500vh;
+  background-size: 100vw;
+  overflow: hidden;
+  
+}
