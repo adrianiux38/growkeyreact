@@ -1,0 +1,115 @@
+#footer {
+    display: flex;
+    width: 100vw !important;
+    flex: 1;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    background: linear-gradient(269.85deg, #694DC6 0.14%, #D180AF 54.81%, #E2A086 99.89%);
+}
+
+
+
+#footercontainer {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom:2%;
+    width: 100vw;
+    flex: 1;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.footercolumn1{
+    display: flex;
+    flex: 0.33;
+    align-content: center;
+    justify-content: center;
+}
+
+.footercolumn1 img {
+    display: flex;
+    width: 60%;
+}
+
+
+
+.footercolumn2 {
+    display: flex;
+    flex: 0.33;
+    flex-direction: column;
+    margin-left: 5%;
+
+}
+
+.footercolumn2 p  {
+    display: flex;
+    margin-right: 5%;
+    width: 100%;
+    margin-bottom: 0%;
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.contactInfo{
+    display: flex;
+    flex: 0.9;
+    width: 100%;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.contactInfo img {
+    display: flex;
+    flex: 0.1;
+    margin: auto;
+    align-self: center;
+    width: 80%;
+    height: 63%;
+    
+}
+
+.contactInfo a {
+    display: flex;
+    flex: 0.9;
+    margin: auto;
+    margin-left: 2%;
+    text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+.menulink{
+    display: flex;
+    flex:0.1;
+    align-content: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.menulink a{ 
+    margin:0px !important;
+    margin-left: 0%;
+}

@@ -6,7 +6,8 @@ import { Hightlight } from './components/Highlight';
 import { Steps } from './components/Steps';
 import { Calltoactions } from './components/Calltoactions';
 import { Quote } from './components/Quote';
-import { Faq } from './components/Faq'
+import { Faq } from './components/Faq';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Calltoactions/>
       <Quote/>
       <Faq/>
+      <Footer/>
     </main>
   );
 }
