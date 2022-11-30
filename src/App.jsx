@@ -3,8 +3,10 @@ import { Navbar } from './components/Navbar';
 import { Header } from './components/Header';
 import { Features } from './components/Features';
 import { Hightlight } from './components/Highlight';
-import { Store } from './components/Store';
 import { Steps } from './components/Steps';
+import { Calltoactions } from './components/Calltoactions';
+import { Quote } from './components/Quote';
+import { Faq } from './components/Faq'
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
       <Header/>
       <Features/>
       <Hightlight/>
-      <Store/>
       <Steps />
+      <Calltoactions/>
+      <Quote/>
+      <Faq/>
     </main>
   );
 }

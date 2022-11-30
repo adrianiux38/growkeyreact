@@ -1,0 +1,150 @@
+.steps {
+   display: flex;
+    width: 100vw;
+    height: 1256px;
+    flex-direction: column;
+    background-color: white;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+}
+
+.contenedor_steps {
+    display: flex;
+    flex: 1;
+}
+
+#tiendaecommerce {
+
+    display: flex;
+    width: 585px;
+    height: 585px;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.titleSteps{
+    width: 80%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 150% */
+
+    color: #7151DA;
+}
+
+#titulos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.descriptionSteps{
+    width: 557px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 28px;
+
+    color: #694DC6;
+}
+
+.contenedorColumnas{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.columna {
+    display: flex;
+    flex-direction: column;
+    flex:0.5;
+    align-content: center;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    flex:0.5;
+    align-content: center;
+    justify-content: center;
+    margin: 5%;
+}
+
+.item img {
+    display: flex;
+    width: 100%;
+}
+
+.itemImage{
+    display: flex;
+    flex: 0.15;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.itemText {
+    display: flex;
+    flex: 0.85;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 5%;
+    color: #694DC6;
+}
+
+.itemText h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.itemDescription {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 28px;
+    
+}
+
+.ctaButton {
+    width: 100vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.ctaButton button {
+    box-sizing: border-box;
+    width: 50%;
+    height: 6vh;
+    background: linear-gradient(180deg, rgba(113, 81, 218, 0) 310.61%, #694DC6 410.61%);
+    border: 1px solid #694DC6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-top: 3%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #694DC6;
+}

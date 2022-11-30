@@ -1,0 +1,140 @@
+#faqsection{
+    display: flex;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column;
+}
+.faqtitle{
+    display: flex;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+}
+.faqtitle h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    /* or 129% */
+    color: #8865FB;
+}
+
+.faqscontainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+}
+
+.buttonfaq {
+    display: flex;
+    width: 60vw;
+    flex: 1;
+    height: 2vh;
+    margin-top: 2%;
+    
+
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 25px;
+    
+    
+    
+
+    background: rgba(251, 250, 255, 0.47);
+    border: 1px solid #694DC6;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+.buttonfaq::-moz-focus-inner {
+    padding: 0 !important;
+    border: 0 none !important;
+    margin: 0 !important;
+    
+}
+
+
+
+.questionfaq{
+    display: flex;
+    flex: 0.9;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 none !important;
+    align-content: center;
+    height: 100%;
+}
+.questionfaq p {
+    display: flex;
+    flex: 1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-left: 2%;
+    color: #694DC6;
+}
+
+.imagefaq{
+    align-content: center;
+    display: flex;
+    flex: 0.1;
+    align-self: center;
+    justify-self: flex-end;
+    justify-content: center;
+    
+
+    height: 100% !important;
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.imagefaq img {
+    display: flex;
+    margin-left: 5%;
+}
+
+.buttonfaq:hover{
+    background: #BA25EE;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.buttonfaq:hover p {
+    color: #FFFFFF;
+}
+
+
+#results { 
+    display: flex;
+    width: 100%;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+    /* margins */ 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 26%;
+}
+
+#results p{
+    max-width: 40%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 28px;
+
+    color: #694DC6;
+}
+
+
