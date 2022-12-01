@@ -12,7 +12,10 @@
 
 @media only screen and (max-width: 767px) {
   /* phones */
-
+  #home{
+  background-color: white;
+  background-image:none;
+  }
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {

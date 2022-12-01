@@ -1,7 +1,6 @@
 .steps {
    display: flex;
     width: 100vw;
-    height: 1256px;
     flex-direction: column;
 }
 
@@ -17,7 +16,6 @@
 }
 
 #tiendaecommerce {
-
     display: flex;
     width: 585px;
     height: 585px;
@@ -44,14 +42,13 @@
 }
 
 .descriptionSteps{
-    width: 557px;
-
+    width: 50%;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
-    font-size: 23px;
-    line-height: 28px;
+    font-size: 1.2em;
+    line-height: 115%;
 
     color: #694DC6;
 }
@@ -146,4 +143,30 @@
     text-align: center;
 
     color: #694DC6;
+}
+
+@media (max-width: 850px) {
+    .contenedorPrincipal{
+        flex-direction: column;
+    }
+    
+    .contenedor_steps {
+        display: flex;
+        width: 100vw;
+        align-content: center;
+        justify-content: center;
+        
+    }
+    .titleSteps, .descriptionSteps{
+        display: flex;
+        width: 100vw;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .titleSteps{
+        max-width: 75%;
+    }
+    .contenedorColumnas {
+        flex-direction: column;
+    }
 }

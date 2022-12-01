@@ -70,3 +70,13 @@ line-height: 30px;
     width: 30%;
     font-size: 1.2em;
 }
+
+@media (max-width: 850px) {
+    #ctacontainer{
+        flex-direction: column;
+    }
+    .ctaTitle h1{
+        max-width: 70%;
+
+    }
+}

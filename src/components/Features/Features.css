@@ -2,7 +2,6 @@
     display: flex;
     width: 100vw !important;
     margin-top: 20%;
-    height: 403px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -27,6 +26,7 @@
     width: 100vw;
     align-content: center;
     justify-content: center;
+    
 }
 
 .feature{
@@ -60,4 +60,14 @@
     margin-top: 0%;
     text-align: center;
     align-self: center;
+}
+
+@media (max-width: 850px) {
+    #featuresDescription{
+        flex-wrap: wrap;
+        margin-bottom: 20%;
+    }
+    .feature{
+        width: 100%;
+    }
 }
