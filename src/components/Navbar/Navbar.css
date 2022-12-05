@@ -67,10 +67,31 @@
         min-height: 25px;
     }
 
+    .container-lg{
+        display: flex;
+        width: 100vw;
+        margin-right: 0;
+        flex-direction: row;
+      }
+
+      .contNav {
+        display: flex;
+        flex:0.5;
+        align-content: center;
+        justify-content: center;
+      }
+
+      .contNav img {
+        margin-right: 15%;
+      }
+
     .menuButton {
         width: 30px;
-        height: 80%;
+        height: 55%;
+        margin-top: 4%;
+        margin-left: 67%;
         display: flex;
+        align-items: center;
         flex-direction: column;
         justify-content: space-around;
         z-index: 12;
@@ -125,8 +146,8 @@
 
     .menuOpen span:first-child {
         position: fixed;
-        top: 1%;
-        left: 93%;
+        top: 3%;
+        left: 91.5%;
         width: 1%;
         height: 40px;
         /*transform: rotate(45deg) translate(6900%, 850%);*/
@@ -137,8 +158,8 @@
 
     .menuOpen span:last-child {
         position: fixed;
-        top: 1%;
-        left: 93%;
+        top: 3%;
+        left: 91.5%;
         height: 40px;
         width: 1%;
         transform: rotate(-45deg);

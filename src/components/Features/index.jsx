@@ -29,7 +29,7 @@ export const Features = () => {
                 <div className='feature'>
                     <img src={Feature4} alt="personalized" />
                     <h3> Uncollateralized </h3>
-                    <p>You don'`t need to leave a collateral or have the “right” credit score that most banks and fintechs ask for</p>
+                    <p>You don't need to leave a collateral or have the “right” credit score that most banks and fintechs ask for</p>
                 </div>
                 <div className='feature'>
                     <img src={Feature2} alt="uncollateralized" />
