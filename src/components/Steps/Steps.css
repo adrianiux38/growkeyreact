@@ -2,6 +2,7 @@
    display: flex;
     width: 100vw;
     flex-direction: column;
+    margin-top: 25%;
 }
 
 .contenedorPrincipal{

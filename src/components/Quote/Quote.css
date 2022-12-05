@@ -71,6 +71,7 @@
         flex-direction: column;
         align-content: center;
         justify-content: center;
+        margin-top: 4%;
     }
     .quoteText{
         display: flex;
