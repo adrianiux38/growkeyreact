@@ -37,11 +37,10 @@
     text-decoration-color: #154BD8;
 }
 .textHeader{
-    font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
+    font-weight: 300;
+    font-size: 1.2em;
+    line-height: 125%;
     width: 40%;
     margin-top: -2%;
     color: #694DC6;
@@ -61,8 +60,8 @@
 .boton{
     display: flex;
     align-items: center;
-    width: 289.38px;
-    height: 50px;
+    width: 80%;
+    height: 8vh;
     top: 511px;
     color: white;
     align-content: center;
@@ -72,10 +71,9 @@
     border-radius: 25px;
     text-align: center;
 
-    font-family: 'Inter';
+
     font-style: normal;
-    font-weight: 700;
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 100%;
     text-align: center;
 }

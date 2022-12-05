@@ -34,7 +34,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 2em;
-    line-height: 105%;
+    line-height: 125%;
     max-width: 50%;
     /* or 150% */
 
@@ -45,13 +45,13 @@
 .subrectangle p {
     margin-top: -2%;
     max-width: 50%;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-size: 1.2em;
-    line-height: 120%;
+    line-height: 125%;
+    
 
-    color: #694DC6;
+    color: #7151DA;
 }
 
 @media (max-width: 850px) {
@@ -61,5 +61,11 @@
     .subrectangle h2, p{
         max-width: 80% !important;
         margin-left: 10%;
+    }
+    .subrectangle p {
+        margin-bottom: 10%;
+    }
+    .subrectangle button {
+        height: 8vh;
     }
 }

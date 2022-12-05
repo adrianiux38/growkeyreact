@@ -28,8 +28,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 2em;
+    line-height: 125%;
     /* or 150% */
 
     color: #7151DA;
@@ -43,12 +43,10 @@
 
 .descriptionSteps{
     width: 50%;
-
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
+    line-height: 125%;
     font-size: 1.2em;
-    line-height: 115%;
 
     color: #694DC6;
 }
@@ -110,11 +108,11 @@
 }
 
 .itemDescription {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
-    font-size: 23px;
-    line-height: 28px;
+    font-size: 1.2em;
+    line-height: 130%;
+    color: black;
     
 }
 
@@ -127,19 +125,18 @@
 
 .ctaButton button {
     box-sizing: border-box;
-    width: 50%;
-    height: 6vh;
+    width: 80%;
+    height: 8vh;
     background: linear-gradient(180deg, rgba(113, 81, 218, 0) 310.61%, #694DC6 410.61%);
-    border: 1px solid #694DC6;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid #694DC6;
+    box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
     margin-top: 3%;
 
-    font-family: 'Inter';
+   
     font-style: normal;
-    font-weight: lighter;
-    font-size: 23px;
-    line-height: 28px;
+    font-size: 1.1em;
+    line-height: 100%;
     text-align: center;
 
     color: #694DC6;
@@ -162,6 +159,7 @@
         width: 100vw;
         margin-left: 7%;
         margin-right: 7%;
+        
     }
     .titleSteps{
         max-width: 75%;
