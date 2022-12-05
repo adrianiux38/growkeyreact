@@ -147,7 +147,7 @@
     .menuOpen span:first-child {
         position: fixed;
         top: 3%;
-        left: 91.5%;
+        left: 90%;
         width: 1%;
         height: 40px;
         /*transform: rotate(45deg) translate(6900%, 850%);*/
@@ -159,7 +159,7 @@
     .menuOpen span:last-child {
         position: fixed;
         top: 3%;
-        left: 91.5%;
+        left: 90%;
         height: 40px;
         width: 1%;
         transform: rotate(-45deg);
