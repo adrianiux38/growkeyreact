@@ -20,3 +20,13 @@
 
     color: #694DC6;
 }
+
+@media (max-width: 850px) {
+    /*---------*/
+    /* Móviles */
+    /*---------*/
+    #results{
+        margin-left: 2%;
+        text-align: left;
+    }
+}

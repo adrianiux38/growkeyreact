@@ -169,4 +169,15 @@
     .contenedorColumnas {
         flex-direction: column;
     }
+    .item{ 
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .item img {
+        width: 30%;
+    }
+    .itemText{
+        text-align: center;
+    }
 }

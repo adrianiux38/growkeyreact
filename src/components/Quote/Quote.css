@@ -2,7 +2,6 @@
     display: flex;
     width: 100vw;
     flex-direction: row;
-    height: 60vh;
     margin-top: -30%;
 
 }
@@ -13,7 +12,6 @@
     opacity: 0.4;
     z-index: -2;
     width: 100vw;
-    height: 60vh;
     
 }
 
@@ -58,4 +56,39 @@
     display: flex;
     align-self: center;
 
+}
+
+@media (max-width: 850px) {
+    /*---------*/
+    /* Móviles */
+    /*---------*/
+    #quote{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .quoteText{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex: 0.5;
+        align-content: center;
+        justify-content: center;
+        font-family: 'Inter';
+        font-style: normal;
+        justify-items: center;
+        align-items: center;
+        margin-left: 0;
+        color: #7151DA;
+    }
+    #fondo{
+        position: relative;
+        margin-top: -100%;
+        margin-right: 0 !important;
+        opacity: 0.4;
+        z-index: -2;
+        width: 100vw; 
+    }
+    
+    
 }

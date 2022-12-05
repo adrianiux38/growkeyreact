@@ -59,6 +59,8 @@ line-height: 30px;
     font-size: 1.3em;
     line-height: 130%;
     color: #140202;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cta button {
@@ -72,11 +74,20 @@ line-height: 30px;
 }
 
 @media (max-width: 850px) {
+    /*---------*/
+    /* Móviles */
+    /*---------*/
     #ctacontainer{
         flex-direction: column;
     }
     .ctaTitle h1{
         max-width: 70%;
 
+    }
+    .cta{
+        margin-top: 10%;
+    }
+    .cta img {
+        width: 30%;
     }
 }

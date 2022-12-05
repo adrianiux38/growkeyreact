@@ -29,7 +29,7 @@ export const Faq = () => {
                 <h2>FAQ</h2>
             </div>
             <div className='faqscontainer'>
-                <button className="buttonfaq" type="button" id="1" onClick={handleClick}>
+                <button className={ showResults === "1" && displayResult ? "purplebutton" : "buttonfaq"} type="button" id="1" onClick={handleClick}>
                     <div className="questionfaq">
                         <p>How does it work?</p>
                     </div>
@@ -39,7 +39,7 @@ export const Faq = () => {
                 </button>
                 { showResults === "1" && displayResult ? <Results id={showResults}/> : null }
                 
-                <button className="buttonfaq" type="button" id="2" onClick={handleClick}>
+                <button className={ showResults === "2" && displayResult ? "purplebutton" : "buttonfaq"}  type="button" id="2" onClick={handleClick}>
                     <div className="questionfaq">
                         <p>What are the risks of receiving a credit in crypto?</p>
                     </div>
@@ -49,7 +49,7 @@ export const Faq = () => {
                 </button>
                 { showResults === "2" && displayResult ? <Results id={showResults}/> : null }
 
-                <button className="buttonfaq" type="button" id="3" onClick={handleClick}>
+                <button className={ showResults === "3" && displayResult ? "purplebutton" : "buttonfaq"}  type="button" id="3" onClick={handleClick}>
                     <div className="questionfaq">
                         <p>How can I repay my credit?</p>
                     </div>
@@ -59,7 +59,7 @@ export const Faq = () => {
                 </button>
                 { showResults === "3" && displayResult ? <Results id={showResults}/> : null }
 
-                <button className="buttonfaq" type="button" id="4" onClick={handleClick}>
+                <button className={ showResults === "4" && displayResult ? "purplebutton" : "buttonfaq"}  type="button" id="4" onClick={handleClick}>
                     <div className="questionfaq">
                         <p>What happens if I can't pay back my credit?</p>
                     </div>
@@ -69,7 +69,7 @@ export const Faq = () => {
                 </button>
                 { showResults === "4" && displayResult ? <Results id={showResults}/> : null }
 
-                <button className="buttonfaq" type="button" id="5" onClick={handleClick}>
+                <button className={ showResults === "5" && displayResult ? "purplebutton" : "buttonfaq"}  type="button" id="5" onClick={handleClick}>
                     <div className="questionfaq">
                         <p>How to get my first credit fast?</p>
                     </div>
