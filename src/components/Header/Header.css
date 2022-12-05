@@ -93,6 +93,7 @@
 
 @media only screen and (max-width: 767px) {
     /* phones */
+
     #titleHeader{
         font-size: 300%;
         width: 70%;
@@ -116,23 +117,25 @@
         
     }
     .botones{
-        flex-direction: column;
+        flex-direction: row;
         width: 100vw;
         height: 16%;
-        margin-top: 10%;
-        align-content: center;
-        justify-content: center;
-        justify-items: center;
+        margin-top: 8%;
     }
     #boton2, #boton1{
         align-self: center;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
         
     }
-    #boton2{
-        margin-top: 3%;
+
+    #boton1 {
+        margin-left: 5%;
     }
+    #boton2{
+        margin-right: 5%;
+    }
+
     
   }
 
@@ -141,4 +144,5 @@
     #titleHeader{
         font-size: 400%;
     }
+    
   }

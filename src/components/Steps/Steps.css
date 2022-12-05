@@ -39,6 +39,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    
 }
 
 .descriptionSteps{
@@ -150,19 +151,18 @@
     .contenedor_steps {
         display: flex;
         width: 100vw;
-        align-content: center;
-        justify-content: center;
         
     }
     .titleSteps, .descriptionSteps{
         display: flex;
         width: 100vw;
-        margin-left: 7%;
         margin-right: 7%;
+        margin-left: 10%;
         
     }
     .titleSteps{
         max-width: 75%;
+        
     }
     .contenedorColumnas {
         flex-direction: column;
