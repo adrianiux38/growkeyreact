@@ -3,7 +3,7 @@
 import { React, useState } from 'react';
 import "./Faq.css";
 import Arrow from "./assets/arrowdown.svg";
-import Results from "../../components/Results";
+import Results from "../Results";
 
 
 //Componente Funcional 

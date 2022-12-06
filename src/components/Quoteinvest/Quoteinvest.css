@@ -1,0 +1,63 @@
+#quoteapply{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 12%;
+}
+
+.containerQuote{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.containerQuote h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 125%;
+
+    color: #7151DA;
+}
+
+.containerQuote button{
+    display: flex;
+    align-self:flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 60% !important;
+    background: linear-gradient(180deg, #7151DA 0%, #694DC6 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-top: 3%;
+    height: 6vh;
+    color: white;
+    font-weight: bold;
+}
+
+.containerQuote p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 135%;
+    display: flex;
+    align-items: center;
+    
+    color: #04000f;
+}
+
+
+.containerImage{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+.containerImage img{
+    width: 50%;
+}

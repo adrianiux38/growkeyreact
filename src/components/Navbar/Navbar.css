@@ -36,18 +36,44 @@
  .container-lg{
     display: flex;
     width: 100vw;
+    /*
     margin-right: 5% !important;
-    
-    align-content: center;
+    */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    flex:1;
   }
-  .menu{
-    width: 100%;
+  .container-lg a {
     display: flex;
-    justify-content: flex-end;
+    flex:0.2;
   }
-  .menu a{
-    margin-right: 2%;
-    margin-left: 2%;
+  .contNav:first-child {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .contNav img{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  #menuHome{
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+    justify-content: flex-end;
+
+  }
+
+  #menuHome a {
+    margin-left: 4%;
+    margin-right: 4%;
   }
 }
 

@@ -1,0 +1,51 @@
+#platformpreview{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 12%;
+}
+.sectionTitle{
+    font-weight: 700;
+    font-size: 2em;
+    max-width: 60%;
+    align-self: center;
+    line-height: 125%;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+
+    color: #7151DA;
+}
+
+.containerTitle{
+    font-weight: 700;
+    font-size: 2em;
+    max-width: 60%;
+    align-self: center;
+    line-height: 125%;
+    font-family: 'Inter';
+    font-style: normal;
+
+    color: #7151DA;
+}
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+#platformpreviewContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.columnContainer{
+    display: flex;
+    flex: 0.33;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#leftContainer{
+    margin-left: 6%;
+}

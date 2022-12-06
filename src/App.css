@@ -2,8 +2,9 @@
   background-image: url("./image/fondodifuminado.svg");
   width: 100vw;
   background-size: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
 }
+
 
 @media only screen and (min-width: 768px) {
   /* tablets and desktop */

@@ -1,0 +1,111 @@
+#headerinvest {
+    display: flex;
+    width: 100vw;
+
+}
+#store{
+    position: absolute;
+    width: 100%;
+    height: 217px;
+    right: 35%;
+    top: 56%;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+#platformPreview{
+    display: flex;
+    flex:0.5;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+    flex:0.5;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#form .inputElement {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    
+}
+
+.inputElement label {
+    width: 100%;
+}
+
+.inputElement input, select{
+    display: flex;
+    width: 60%;
+    margin-top: 1%;
+    padding-left: 3%;
+    height: 6vh;
+    background: rgba(113, 81, 218, 0.15);
+    border: 1px solid #694DC6;
+    border-radius: 100px;
+    
+}
+
+.inputElement input:focus {
+    outline: none;
+}
+
+.selectElement{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.selectElement select{
+    padding-left: 5%;
+    background: url("./assets/downarrow.svg") no-repeat right;
+    background-position: 90%;
+    appearance:none;
+    font-size: 1rem;
+    
+    border-bottom: 1px solid #757575;
+}
+
+
+
+/*
+#form input{
+    width: 100%;
+}
+#form select {
+    width: 80%;
+
+    
+}
+*/
+
+#enviaDatos {
+    display: flex;
+    align-self:flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 60% !important;
+    background: linear-gradient(180deg, #7151DA 0%, #694DC6 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-top: 3%;
+    height: 6vh;
+    color: white;
+    font-weight: bold;
+}
+
+
