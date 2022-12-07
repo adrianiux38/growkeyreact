@@ -88,6 +88,9 @@
         padding: 20px 0 20px;
         justify-content: flex-end;
     }
+    #logocont{
+      flex:0.9 !important;
+    }
 
     .navbar > div {
         min-height: 25px;
@@ -121,7 +124,7 @@
         flex-direction: column;
         justify-content: space-around;
         z-index: 12;
-        margin-right: 3vh !important;
+        margin-right: 0% !important;
        
     }
 
@@ -208,9 +211,11 @@
         justify-content: center;
         align-content: center;
         transform: translateY(100%);
+        z-index: 10;
         transition: all .2s ease-in-out;
-        /*z-index: 10;
         row-gap: 20px;
+        /*
+        
         */
         
     }

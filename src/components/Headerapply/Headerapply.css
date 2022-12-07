@@ -9,6 +9,7 @@
     height: 217px;
     right: 35%;
     top: 56%;
+    z-index: 0;
 }
 .contenedor{
     display: flex;
@@ -106,6 +107,62 @@
     height: 6vh;
     color: white;
     font-weight: bold;
+}
+
+@media (max-width: 850px) {
+    /*Mobiles*/ 
+    #platformPreview img{
+        width: 100vw;
+    }
+    #form h2{
+        align-self: center;
+    } 
+    .contenedor{
+        flex-direction: column;
+    }
+    #store{
+        display: none;
+    }
+
+    .inputElement label{
+        width: 100vw;
+        margin-left: 5%;
+        margin-top: 4%;
+        align-items: center;
+        
+    }
+
+    .selectElement{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-self:center;
+        align-items:center;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .selectElement select{
+        margin-left: 0;
+        justify-content: center;
+        align-content: center;
+        width: 80%;
+    }
+
+
+    .inputElement label input{
+        flex-direction: column;
+        display: flex;
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 2%;
+        
+    }
+   #form button{
+    align-self: center;
+    margin-top: 6%;
+   } 
+
 }
 
 

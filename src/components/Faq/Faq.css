@@ -1,6 +1,7 @@
 #faqsection{
     display: flex;
     width: 100vw;
+    margin-top: 12%;
     align-content: center;
     justify-content: center;
     flex-direction: column;

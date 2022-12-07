@@ -18,7 +18,7 @@ export const Navbar = () => {
                             <img src={Logo} alt="logo" />
                         </div>
                     </Link>
-                    <div className='contNav'>
+                    <div className='contNav' id="logocont">
                         <div className={isOpen ? "menuOpen menuButton" : "menuButton"} onClick={() => setIsOpen(!isOpen)}>
                         <span></span>
                         <span></span>
