@@ -1,4 +1,4 @@
-#headerapply {
+#headerinvest {
     display: flex;
     width: 100vw;
 
@@ -7,8 +7,8 @@
     position: absolute;
     width: 100%;
     height: 217px;
-    right: 35%;
-    top: 56%;
+    right: 43%;
+    top: 60%;
 }
 .contenedor{
     display: flex;
@@ -23,6 +23,7 @@
 }
 #platformPreview img{
     width: 90%;
+    margin-left: 15%;
 }
 
 #form {
@@ -37,6 +38,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-left: 15%;
 }
 
 #form .inputElement {
@@ -109,6 +111,33 @@
     height: 6vh;
     color: white;
     font-weight: bold;
+}
+
+
+@media (max-width: 850px) {
+    /*---------*/
+    /* Móviles */
+    /*---------*/
+    #form form{
+        margin-left: 0 !important;
+    }
+    #form h2{
+        margin-left:0 !important ;
+    }
+    #platformPreview img{
+        margin-left: 0%;
+    }
+    .selectElement{
+        display: flex;
+        width: 100vw;
+        align-content: center;
+        justify-content: center;
+    }
+    #enviaDatos{
+        align-self: center;
+        margin-top: 10%;
+    }
+    
 }
 
 
