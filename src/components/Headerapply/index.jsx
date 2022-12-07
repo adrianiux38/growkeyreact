@@ -3,6 +3,8 @@ import Store from './assets/store.svg';
 import Computer from './assets/computer.svg';
 import "./Headerapply.css";
 
+
+
 export const Headerapply = () => {
   return (
     <div id='headerinvest'>

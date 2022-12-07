@@ -24,6 +24,12 @@
 
     color: #7151DA;
 }
+.containerQuote .linkApply{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    
+}
 
 .containerQuote button{
     display: flex;
@@ -96,6 +102,10 @@
     .containerImage img{
         margin-top: 12%;
         align-self: center;
+    }
+    .containerQuote .linkApply{
+        justify-content: center;
+        
     }
 
 }

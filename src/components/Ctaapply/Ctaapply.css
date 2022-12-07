@@ -46,6 +46,14 @@
     color: #04000f;
 }
 
+.buttonApply{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
 .ctaText button {
     display: flex;
     justify-content: center;

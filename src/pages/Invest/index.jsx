@@ -4,7 +4,7 @@ import { Headerinvest } from '../../components/Headerinvest';
 import "./Invest.css";
 import { Quoteinvest} from '../../components/Quoteinvest';
 import {Footer} from "../../components/Footer";
-import { Platformpreview } from '../../components/Platformpreview';
+//import { Platformpreview } from '../../components/Platformpreview';
 
 export const Invest = () => {
   return (
@@ -12,7 +12,6 @@ export const Invest = () => {
         <Navbar/>
         <Headerinvest/>
         <Quoteinvest/>
-        <Platformpreview/>
         <Footer/>
     </main>
   );

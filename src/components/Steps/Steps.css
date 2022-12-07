@@ -118,11 +118,19 @@
     
 }
 
+
 .ctaButton {
     width: 100vw;
     display: flex;
     align-content: center;
     justify-content: center;
+}
+.linkApply{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
 .ctaButton button {
@@ -146,6 +154,25 @@
 
 @media (max-width: 850px) {
     /*mobile */ 
+    .ctaButton{
+        align-content: center;
+        justify-self: center;
+        justify-content: center;
+    }
+    .linkApply{
+        display: flex;
+        width: 100vw;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        text-decoration: none;
+    }
+    .linkApply button{
+        display: flex;
+        align-self: center !important;
+        justify-content: center;
+        align-items: center;
+    }
 
     .contenedorPrincipal{
         flex-direction: column;
@@ -180,6 +207,11 @@
     }
     .itemText{
         text-align: center;
+        margin-left: 0;
+    }
+    .itemText p{
+        margin: auto;
+        margin-top: 5%;
     }
 }
 
@@ -191,4 +223,6 @@
     .ctaButton button {
         width: 40%;
     }
+    
+    
 }

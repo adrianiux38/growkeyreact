@@ -69,14 +69,14 @@
     .subrectangle p {
         margin-bottom: 10%;
     }
-    .subrectangle button {
+    .subrectangle Link {
         height: 8vh;
     }
 }
 
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
-    .subrectangle button {
+    .subrectangle Link {
         width: 45%;
         margin-top: 2%;
     }

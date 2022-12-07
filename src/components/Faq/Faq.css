@@ -157,6 +157,7 @@
         border-radius: 25px;
         align-self: center;
         margin-top: 2%;
+
     }
     .purplebutton p{
         display: flex;
@@ -167,6 +168,10 @@
         font-size: 1.2em;
         margin-left: 2%;
         color: #ffffff;
+    }
+    #results{
+        margin-left: 0;
+        text-align: justify;
     }
 
 }

@@ -8,6 +8,7 @@ import Icono3 from "./assets/icono3.svg"
 import Icono4 from "./assets/icono4.svg"
 import Icono5 from "./assets/icono5.svg"
 import Storevector from './assets/merchant.svg'
+import {Link} from 'react-router-dom';
 //Componente Funcional 
 //type = button-long-text
 //prueba
@@ -71,7 +72,7 @@ export const Steps = () => {
                 </div>
             </div>
             <div className='ctaButton'>
-                <button type="button">Apply now</button>
+                <Link className="linkApply" to="/apply"><button type="button">Apply now</button></Link>
             </div>
 
 
