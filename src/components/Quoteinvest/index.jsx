@@ -1,18 +1,32 @@
+//importar react
+
 import React from 'react';
 import "./Quoteinvest.css";
-import Planta from "./assets/planta.svg";
+import Moneybag from "./assets/graph.svg"
+import Background from "./assets/nuevofondo.svg"
 
-export const Quoteapply = () => {
-  return (
-    <div id='quoteapply'>
-        <div className='containerQuote'>
-            <h2>A once-in-a-lifetime opportunity</h2>
-            <p>By being one of the first 1,000 whitelisted ecommerce brands, you will receive a lower interest rate and preferential payment times</p>
-            <button>Apply to witelist</button>
+//Componente Funcional 
+//type = button-long-text
+//prueba
+
+export const Quoteinvest = () => {
+    return(
+        <div>
+            <div id="fondo">
+                <img src={Background} alt="Fondo"/>
+            </div>
+            <div id="quote">
+                <div className="quoteText">
+                    <h2>Millions of businesses are wrongfully denied funding every year</h2>
+                    <p>Banks and actual institutions deny millions of businesses to receive a credit, and if not denied, these charge abusive interest rates that don’t allow for the business to grow</p>
+                    <button>Register to whitelist</button>
+                </div>
+                <div className='quoteImage'>
+                    <img src={Moneybag} alt="money baag" />
+                </div>
+                
+            </div>
         </div>
-        <div className='containerImage'>
-            <img src={Planta} alt="plant growing" />
-        </div>
-    </div>
-  );
+    );
 }
+

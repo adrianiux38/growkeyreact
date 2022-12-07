@@ -1,11 +1,11 @@
 import React from 'react';
-import Store from './assets/money.svg';
+import Store from './assets/store.svg';
 import Computer from './assets/computer.svg';
 import "./Headerapply.css";
 
 export const Headerapply = () => {
   return (
-    <div id='headerapply'>
+    <div id='headerinvest'>
         <div className="contenedor">
             <div id="platformPreview">
                 <img src={Computer} alt="Growkey platform" />
@@ -39,7 +39,7 @@ export const Headerapply = () => {
                         </label>
                     </div>
                     <div className='selectElement'>
-                        Select the ammount yout would like to receive
+                        Select the ammount yout want to invest
                     <select>
                         <option selected value="1,000 USD - 10,000 USD">1,000USD - 10,000 USD</option>
                         <option value="10,000USD - 50,000 USD">10,000USD - 50,000 USD</option>

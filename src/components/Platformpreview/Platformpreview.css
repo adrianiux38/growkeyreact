@@ -3,6 +3,7 @@
     width: 100vw;
     flex-direction: column;
     margin-top: 12%;
+    margin-bottom: 12%;
 }
 .sectionTitle{
     font-weight: 700;
@@ -20,7 +21,6 @@
 .containerTitle{
     font-weight: 700;
     font-size: 2em;
-    max-width: 60%;
     align-self: center;
     line-height: 125%;
     font-family: 'Inter';
@@ -39,13 +39,80 @@
     display: flex;
     width: 100%;
     flex-direction: row;
+    align-content: center;
+
 }
 .columnContainer{
     display: flex;
-    flex: 0.33;
     flex-direction: column;
-    justify-content: space-around;
+    flex: 0.4;
+    margin-top: 5%;
 }
-#leftContainer{
-    margin-left: 6%;
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
 }
+
+#leftContainer p{
+    align-self: flex-end;
+    max-width: 50%;
+    margin-left: 50%;
+
+}
+
+#leftContainer h2{
+    align-self: flex-end;
+    max-width: 70%;
+    margin-left: 50%;
+
+}
+
+#rightContainer p{
+    align-self: flex-start;
+    max-width: 50%;
+    margin-right: 50%;
+}
+#rightContainer  h2{
+    align-self: flex-start;
+    max-width: 70%;
+    margin-right: 50%;
+}
+
+#leftContainer .containerText{
+    align-content: flex-end !important;
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    text-align: right;
+}
+
+#contenedorBoton{
+    display: flex;
+    width:100vw;
+    align-content: center;
+    justify-content: center;
+    margin-top: 3%;
+   
+}
+
+#applyButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    width: 30%;
+    height: 6vh;
+    background: linear-gradient(180deg, rgba(113, 81, 218, 0) 310.61%, #694DC6 410.61%);
+    border: 2px solid #694DC6;
+    box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+    font-style: normal;
+    font-size: 1.1em;
+    line-height: 100%;
+    text-align: center;
+
+}
+

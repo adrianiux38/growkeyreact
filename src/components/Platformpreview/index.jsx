@@ -11,29 +11,32 @@ export const Platformpreview = () => {
         <div id="platformpreviewContainer">
             <div className='columnContainer' id="leftContainer">
                 <div className='containerText right'>
-                    <h2 className='containerTitle'>A once-in-a-lifetime opportunity</h2>
-                    <p>By being one of the first 1,000 whitelisted ecommerce brands, you will receive a lower interest rate and preferential payment times</p>
+                    <h2 className='containerTitle'>1. Register</h2>
+                    <p>Fill in your basic information and connect your favorite crypto wallet</p>
                 </div>
                 <div className='containerText right'>
-                    <h2 className='containerTitle'>A once-in-a-lifetime opportunity</h2>
-                    <p>By being one of the first 1,000 whitelisted ecommerce brands, you will receive a lower interest rate and preferential payment times</p>
+                    <h2 className='containerTitle'>2. Select the ecommerce</h2>
+                    <p>We will offer you different ecommerce brands to invest in, each with a different size and risk</p>
                 </div>
             </div>
-            <div className='columnContainer'>
+            <div className='imageContainer'>
                 <img src={Platform} alt="plant growing" />
-                <button>Apply to whitelist</button>
             </div>
-            <div className='columnContainer'>
+            <div className='columnContainer' id="rightContainer">
                 <div className='containerText left'>
-                    <h2 className='containerTitle'>A once-in-a-lifetime opportunity</h2>
-                    <p>By being one of the first 1,000 whitelisted ecommerce brands, you will receive a lower interest rate and preferential payment times</p>
+                    <h2 className='containerTitle'>3. Invest</h2>
+                    <p>Using your regular card or in any of the accepted cryptocurrencies (ETH, AVAX, MATIC or USDT)</p>
                 </div>
                 <div className='containerText left'>
-                    <h2 className='containerTitle'>A once-in-a-lifetime opportunity</h2>
-                    <p>By being one of the first 1,000 whitelisted ecommerce brands, you will receive a lower interest rate and preferential payment times</p>
+                    <h2 className='containerTitle'>4. Receive daily interests</h2>
+                    <p>You will start earning interest directly to your wallet in USDT 24 hours after your investment is received by the merchant</p>
                 </div>
             </div>
         </div>
+        <div id="contenedorBoton">
+            <button id="applyButton">Apply to whitelist</button>
+        </div>
+        
     </div>
   );
 }
