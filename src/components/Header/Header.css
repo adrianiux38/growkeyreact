@@ -11,7 +11,7 @@
 }
 
 #titleHeader{
-    width: 45%;
+    width: 60%;
     align-content: center;
     font-family: 'Inter';
     font-style: normal;
@@ -143,6 +143,12 @@
     /* tablets and desktop */
     #titleHeader{
         font-size: 400%;
+    }
+    .headerBanner {
+        margin-top: 0;
+    }
+    .headerTitle{
+        margin-top: 0;
     }
     
   }

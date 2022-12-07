@@ -145,6 +145,8 @@
 }
 
 @media (max-width: 850px) {
+    /*mobile */ 
+
     .contenedorPrincipal{
         flex-direction: column;
     }
@@ -178,5 +180,15 @@
     }
     .itemText{
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+    .steps{
+        margin-top: 5%;
+    }
+    .ctaButton button {
+        width: 40%;
     }
 }
