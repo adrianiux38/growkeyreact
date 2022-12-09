@@ -25,7 +25,7 @@ export const Navbar = () => {
                     </div>
                 </div>
                 <div id = "menuHome" className={(isOpen ? 'navOpen ' : '') + "menu flex flexRow gap"}>
-                    <Link to="/apply" onClick={() => setIsOpen(!isOpen)}>Apply for a credit</Link>
+                    <Link to="/apply" onClick={() => setIsOpen(!isOpen)}>Apply to grow</Link>
                     <Link to="/invest" onClick={() => setIsOpen(!isOpen)}>Invest</Link>
                 </div>
             </div>

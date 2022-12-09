@@ -17,7 +17,7 @@ export const Header = () => {
                 </h1>
                 <p className='textHeader'>We help you grow your ecommerce with an instant credit at an interest rate that fits your needs</p>
                 <div className='botones'>
-                    <Link className='boton' to="/apply" id='boton1'>Apply for a credit</Link>
+                    <Link className='boton' to="/apply" id='boton1'>Apply to grow</Link>
                     <Link className='boton' to="/invest" id='boton2'>Lend</Link>
                 </div>
             </div>
